@@ -57,10 +57,10 @@ cont get_c3() impure asm "c3 PUSH";
 () set_c3(cont c) impure asm "c3 POP";
 cont bless(slice s) impure asm "BLESS";
 
-() accept_message() impure asm "ACCEPT";
-() set_gas_limit(int limit) impure asm "SETGASLIMIT";
-() commit() impure asm "COMMIT";
-() buy_gas(int gram) impure asm "BUYGAS";
+;; () accept_message() impure asm "ACCEPT";
+;; () set_gas_limit(int limit) impure asm "SETGASLIMIT";
+;; () commit() impure asm "COMMIT";
+;; () buy_gas(int gram) impure asm "BUYGAS";
 
 int min(int x, int y) asm "MIN";
 int max(int x, int y) asm "MAX";
